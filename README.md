@@ -24,8 +24,32 @@ A fully responsive and interactive portfolio website built with React.js, showca
 
 ## Setup and Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+1. Clone the repository: ("https://github.com/hyejizxc/personal-portfolio.git")
+
+## Future Enhancements
+- **Add a blog section.**
+- **Implement a dark mode toggle with local storage.**
+- **Add animations and transitions.**
+- **Connect the contact form to a backend service.**
+
+## Contact Form Validation (EmailJS Integration)
+The contact form is connected to **EmailJS** for sending email notifications. Here's how to configure it:
+
+1. **Create an EmailJS account** at [EmailJS](https://www.emailjs.com/).
+2. **Create a service** and **template** in EmailJS.
+3. **Update your `Contact.js` file** with your service and template IDs.
+
+### Screenshots for EmailJS Validation:
+
+- **Email Sent Email:**
+   ![Email Screenshot](src/assets/send-email.png)
+  
+- **Email Sent Successfully:**
+  ![Email Screenshot](src/assets/send-complete.png)
+
+- **Email Recieved:**
+  ![Email Screenshot](src/assets/recieved-email.png)
+
+   
+   
 
