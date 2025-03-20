@@ -1,0 +1,31 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+main {
+  min-height: calc(100vh - 140px);
+  padding: 20px 0;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #f8f8f8;
+}
+
+.dark-mode a {
+  color: #61dafb;
+}
+
+.dark-mode .navbar, .dark-mode footer {
+  background-color: #222;
+}

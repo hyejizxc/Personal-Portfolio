@@ -1,0 +1,105 @@
+/* src/pages/About.css */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .about-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-text {
+    flex: 2;
+  }
+  
+  .about-text h2 {
+    margin-bottom: 15px;
+  }
+  
+  .about-text p {
+    margin-bottom: 20px;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    flex-wrap: wrap; /* Responsive layout */
+    margin-top: 20px;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .skill-icon {
+    font-size: 40px;
+  }
+  
+  .html {
+    color: #E34F26;
+  }
+  
+  .css {
+    color: #1572B6;
+  }
+  
+  .js {
+    color: #F7DF1E;
+  }
+  
+  .react {
+    color: #61DAFB;
+  }
+  
+  .node {
+    color: #68A063;
+  }
+  
+  .sql {
+    color: #00758F;
+  }
+  
+  .skill-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+  }  
+
+
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+    
+    .about-image {
+      margin-bottom: 30px;
+    }
+  }
+  
